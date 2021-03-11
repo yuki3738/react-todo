@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 
 export const App = () => {
+  const [incompleteTodos, setIncompleteTodos] = useState(['ああああ', 'ooooo
+  ']);
   return (
     <>
       <div className="input-area">
